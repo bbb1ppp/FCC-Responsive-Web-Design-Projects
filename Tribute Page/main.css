@@ -1,4 +1,79 @@
-html {
+#main {
   font-family: "Raleway", sans-serif;
-  font-family: "Trocchi", serif;
+}
+
+#firma {
+  /* make img responsive */
+  opacity: 0.2;
+  width: 100%;
+  display: block;
+  height: auto;
+}
+/* header img {
+  /* background-color: #666969; */
+/* } */
+h1,
+h2 {
+  font-family: Trocchi;
+}
+h1 {
+  font-size: 7vw;
+  letter-spacing: 0.4vw;
+  text-align: center;
+  font-weight: 900;
+}
+
+#topquote {
+  font-size: 0.8em;
+  font-variant: small-caps;
+  font-style: oblique;
+  color: #222222;
+  text-align: center;
+  /* border: 1px solid #9d9d9d; */
+  background-color: #dedede;
+  padding: 7px;
+  float: right;
+  right: 0;
+}
+
+#navigation {
+  width: 100%;
+  position: relative;
+  /* animation for background */
+}
+
+#navigation nav {
+  padding-top: 3vw;
+  position: absolute;
+  width: 50%;
+  height: auto;
+  float: left;
+  margin: auto;
+  font-family: Trocchi, sans-serif;
+  top: 0;
+  bottom: 0;
+}
+#navigation h2 {
+  font-size: 3vw;
+  text-align: center;
+}
+#navigation li {
+  list-style-type: none;
+  padding: 10px auto;
+  line-height: 4vw;
+  font-size: 2.5vw;
+}
+#navigation-photo {
+  position: absolute;
+  width: 50%;
+  display: block;
+  float: right;
+  right: 0;
+}
+#navigation-photo img {
+  width: 60%;
+  height: auto;
+  display: block;
+  float: right;
+  padding: 2vw;
 }
